@@ -1,4 +1,4 @@
-const { faker } = require('@faker-js/faker');
+const { faker } = require('@faker-js/faker'); // to generate fake user data
 const mysql = require('mysql2');
 const express = require("express");
 const app= express();

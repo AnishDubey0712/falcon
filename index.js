@@ -1,4 +1,4 @@
-const { faker } = require('@faker-js/faker'); // to generate fake user data
+const { faker } = require('@faker-js/faker');
 const mysql = require('mysql2');
 const express = require("express");
 const app= express();
@@ -106,7 +106,6 @@ let{password : formPass , userName : newUsername}=req.body;
   res.send("Some error in DB ")
 };
 })
-// changes made in database are permanent we cant change it.
 
 // let q="INSERT into user (id,username,email,password)values ?";
 // let data=[];

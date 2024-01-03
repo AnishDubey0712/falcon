@@ -1,4 +1,4 @@
-const { faker } = require('@faker-js/faker');
+const { faker } = require('@faker-js/faker');//to get fake data for our database
 const mysql = require('mysql2');
 const express = require("express");
 const app= express();
@@ -105,7 +105,7 @@ let{password : formPass , userName : newUsername}=req.body;
   console.log(err);
   res.send("Some error in DB ")
 };
-})
+});
 
 // let q="INSERT into user (id,username,email,password)values ?";
 // let data=[];

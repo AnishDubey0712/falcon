@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- <h1>This is home page</h1>
+    <p>Helloo, Welcome to my home page.  This is my first page in ejs and I'm currently learning ejs and fullstack web developement </p>
+    <button>click me!!</button> -->
+    <h2>This page belongs to : <%= data.name %></h2>
+    <button>Follow</button>
+     <button>Message</button>
+     <p>Followers: <%= data.followers %>&nbsp;&nbsp;&nbsp;&nbsp;Following: <%= data.following %></p>
+     <hr>
+     <% for(post of data.posts){%>
+        <img src="<%=post.image%>"alt="some img">
+        <p>Likes: <%=post.likes %>&nbsp;&nbsp;&nbsp;&nbsp;Comments: <%= post.comments %></p>
+     <%}%>
+     
+</body>
+</html>

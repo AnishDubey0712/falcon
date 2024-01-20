@@ -1,0 +1,101 @@
+h1{
+    color:white;
+}
+button{
+    color:antiquewhite;
+    background:skyblue; 
+}
+body{
+    color:aliceblue;
+    background:black;}
+    h2{
+        color:yellow;
+        font-family:arial black;
+    }
+    h3{
+        color:chartreuse;
+        font-family:arial black;
+    }
+    b{
+        color:aqua;
+    }
+    form{
+        color:rgb(142, 247, 247);
+        font-family:arial black;
+    }
+   h4 {
+    font-family:arial black;
+    }
+    table{
+        font-family:arial black;
+    }
+    th{
+        color:chartreuse;
+    }
+    td{
+        color:gold;
+    }
+    .name,.Email,.message{
+        color:gold;
+    }
+    #F{
+        color:chartreuse;
+    }
+   a:hover{
+    font-weight: bold;
+    color: magenta;
+   }
+   tr>th{
+    text-decoration: underline;
+   }
+   input[type="name"]{
+    color:green
+   }
+   input[type="email"]{
+    color:darkred
+   }
+   button:hover{
+    background-color: aqua;
+    color:aliceblue;
+   }
+ button{
+    border: width 22px; 
+    border-style: double;
+    border-left-color: rgb(243, 148, 7);
+    border-top-color: rgb(245, 245, 11);
+    border-right-color: chartreuse;
+    border-bottom-color: rgb(240, 50, 50);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+ }
+ 
+
+ #container{
+background-color:  white;
+    width:400px ;
+    height: 400px;
+    display: flex;
+    border: 2px solid greenyellow;
+    border-radius: 5%;
+   
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+ }
+ .Box{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    font-size: 50px;
+    color: chartreuse;
+    text-align: center;
+   
+ }
+ 
+ 
